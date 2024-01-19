@@ -1,16 +1,14 @@
-function displayName(person){
-    console.log(`${person.first}${person.last}`);
+function displayName(person) {
+  console.log(`${person.first}${person.last}`);
 }
 
 const persons = {
+  first: "Virat",
 
-    first: 'Virat',
+  last: "Kohli",
 
-    last: 'Kohli',
+  twitter: "@vkohli",
 
-    twitter: '@vkohli',
-
-    company: 'Cricketer'
-
-}
+  company: "Cricketer",
+};
 displayName(persons);
